@@ -1,0 +1,124 @@
+body{
+    background-image: url("./image.jpg");
+    background-repeat: no-repeat;
+    background-size: 1700px;
+
+}
+
+
+
+
+
+
+
+
+.relative-box {
+    position: relative;
+    left: 110px;
+    top: 10px;
+    background-color: rgba(169, 64, 15, 0.579);
+    width: 1322px;
+    }
+
+    .relative-box2 {
+        position: relative;
+    left: 100px;
+    top: 10px;
+    background-color: rgba(239, 63, 10, 0.618);
+    width: 1322px;
+
+    }
+
+    .relative-box3 {
+        position: relative;
+    left: 100px;
+    top: 1px;
+    background-color: rgba(239, 63, 10, 0.604);
+    width: 1322px;
+
+    }
+    .relative-box4{
+
+ 
+    position: relative;
+    left: 10px;
+    top: 1%;
+    background-color: rgba(239, 63, 10, 0.54);
+    width: 1112px;   }
+
+    
+    .absolute-box {
+    position: fixed;
+    top: 100px;
+    left: 595px;
+    background-color: rgba(239, 63, 10, 0.577);
+    width: 340px;
+    }
+
+
+    .fixed-box {
+        position: fixed;
+        bottom: 594px;
+        right: 150px;
+        background-color: rgba(239, 63, 10, 0.54);
+        width: 110px;
+        }
+        .sticky-box {
+        position: fixed;
+        top: 0px;
+        background-color: rgb(143, 0, 252);
+        width: 150px;
+        }
+
+        a:hover {
+            color: rgb(251, 250, 255);
+            }
+               
+        .float-container {
+            width: 80%;
+            margin: 0 auto;
+            border: 3px solid rgb(58, 28, 179);
+            overflow: auto; /* Garante que o contêiner
+            encapsule o elemento flutuante */
+            }
+            .float-box {
+            float: left;
+            margin-right: 10px;
+            background-color: rgba(0, 103, 248, 0.622);
+            width: 210px;
+            height: 180px;
+            }
+
+            
+           
+
+
+
+                .z-index-box1 {
+                    position: absolute;
+                    top: 170px;
+                    left: 550px;
+                    background-color: rgba(239, 63, 10, 0.6);
+                    /* lightblue com opacidade */
+                    z-index: 1;
+                    width: 400px;
+                    height: 100px;
+                    }
+
+                    
+
+                    .z-index-box2 {
+                        position: absolute;
+                        top: 436px;
+                        left: 1105px;
+                        background-color: rgba(0, 144, 247, 0.604);
+                        /* lightcoral com opacidade */
+                        z-index: 2;
+                        width: 200px;
+                        height: 223px;}
+
+                       
+                       
+                        
+                       
+
